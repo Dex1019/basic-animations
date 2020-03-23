@@ -1,3 +1,3 @@
 ## Animations demo (Kotlin)
 
-![](animations.gif)
+![](animations.gif) width="200" height="300"
