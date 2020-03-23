@@ -1,3 +1,3 @@
 ## Animations demo (Kotlin)
 
-![](animations.gif) |height=300
+![] <img src="animations.gif" width="200" height="200">
