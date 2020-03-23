@@ -23,7 +23,6 @@ class FadeAnimationActivity : AppCompatActivity() {
         ivFadeAnim.startAnimation(animFadeIn)
         animFadeIn.setAnimationListener(object : Animation.AnimationListener {
             override fun onAnimationRepeat(animation: Animation?) {
-
             }
 
             override fun onAnimationEnd(animation: Animation?) {
@@ -31,7 +30,6 @@ class FadeAnimationActivity : AppCompatActivity() {
             }
 
             override fun onAnimationStart(animation: Animation?) {
-
             }
 
         })

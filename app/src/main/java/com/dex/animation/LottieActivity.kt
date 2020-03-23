@@ -18,12 +18,12 @@ class LottieActivity : AppCompatActivity() {
         lottieAnimationView.setAnimation("cycling.json")
         lottieAnimationView.speed = 0.5f
 
+        // Animation listener
         lottieAnimationView.addAnimatorListener(object : Animator.AnimatorListener {
             override fun onAnimationRepeat(p0: Animator?) {
             }
 
             override fun onAnimationEnd(p0: Animator?) {
-//                lottie_checkedanimation.setAnimation("retry_loader_animation.json")
             }
 
             override fun onAnimationCancel(p0: Animator?) {

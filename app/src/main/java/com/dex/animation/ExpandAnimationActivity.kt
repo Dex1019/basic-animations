@@ -24,18 +24,11 @@ class ExpandAnimationActivity : AppCompatActivity() {
         expandableTextView.viewTreeObserver.addOnGlobalLayoutListener(object :
             ViewTreeObserver.OnGlobalLayoutListener {
             override fun onGlobalLayout() {
-                println("===> view tree : ${expandableTextView.measuredHeight}")
                 height = expandableTextView.measuredHeight
                 expandableTextView.visibility = GONE
                 expandableTextView.viewTreeObserver.removeOnGlobalLayoutListener(this)
             }
         })
-
-//        expandableTextView.measure(View.MeasureSpec.UNSPECIFIED, View.MeasureSpec.UNSPECIFIED)
-//        expandableTextView.layout(0, 0, expandableTextView.measuredWidth, expandableTextView.measuredHeight)
-//        val height = expandableTextView.measuredHeight
-//
-//        println("===> measure tree : ${expandableTextView.measuredHeight}")
 
         tv_expandable_view.setOnClickListener {
             if (expandableTextView.visibility == VISIBLE) {
