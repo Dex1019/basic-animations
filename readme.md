@@ -1,3 +1,3 @@
 ## Animations demo (Kotlin)
 
-![] (animation.gif)
+![](animation.gif)
