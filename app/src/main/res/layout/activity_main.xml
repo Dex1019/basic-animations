@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_lottie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorAccent"
+        android:text="@string/lottie_animation"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_hop_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorAccent"
+        android:text="@string/hop_animation"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_expand_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorAccent"
+        android:text="@string/expand_animation"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_ripple_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorAccent"
+        android:text="@string/ripple_animation"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_fade_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorAccent"
+        android:text="@string/fade_animation"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_shared_element_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorAccent"
+        android:text="@string/shared_element_animation"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_flip_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorAccent"
+        android:text="@string/flip_animation"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_scale_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Scale Animation"
+        android:textAllCaps="false" />
+
+</LinearLayout>

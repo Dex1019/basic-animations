@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dex.animation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".ScaleAnimationActivity"
+            android:label="Scale Animation"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FlipAnimationActivity"
+            android:label="Flip Animation"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DetailSharedElementActivity"
+            android:label="Shared Element Animation"
+            android:parentActivityName=".SharedElementAnimationActivity" />
+        <activity
+            android:name=".SharedElementAnimationActivity"
+            android:label="Shared Element Animation"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FadeAnimationActivity"
+            android:label="Fade Animation"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RippleAnimationActivity"
+            android:label="Ripple Animation"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ExpandAnimationActivity"
+            android:label="Expandable Animation"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HopAnimationActivity"
+            android:label="Hop Animation"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LottieActivity"
+            android:label="Lottie Animation"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
