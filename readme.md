@@ -1,3 +1,3 @@
 ## Animations demo (Kotlin)
 
-<img src="animations.mov" width="300" height="500">
+<img src="animations(1).mp4" width="300" height="500">
