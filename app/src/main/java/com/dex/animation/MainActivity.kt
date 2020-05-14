@@ -11,6 +11,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        initListener()
+    }
+
+    private fun initListener() {
         btn_lottie.setOnClickListener(this)
         btn_hop_animation.setOnClickListener(this)
         btn_expand_animation.setOnClickListener(this)
@@ -19,11 +23,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         btn_shared_element_animation.setOnClickListener(this)
         btn_flip_animation.setOnClickListener(this)
         btn_scale_animation.setOnClickListener(this)
+        btn_bottom_sheet_animation.setOnClickListener(this)
     }
 
-
     override fun onClick(view: View) {
-
         when (view.id) {
             R.id.btn_lottie -> startActivity(Intent(this, LottieActivity::class.java))
             R.id.btn_hop_animation -> startActivity(Intent(this, HopAnimationActivity::class.java))
@@ -59,7 +62,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.btn_scale_animation -> startActivity(
                 Intent(this, ScaleAnimationActivity::class.java)
             )
+            R.id.btn_bottom_sheet_animation -> startActivity(
+                Intent(this, BottomSheetActivity::class.java)
+            )
         }
-
     }
 }

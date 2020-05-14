@@ -12,6 +12,10 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
+            android:name=".BottomSheetActivity"
+            android:label="BottomSheet Animation"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".ScaleAnimationActivity"
             android:label="Scale Animation"
             android:parentActivityName=".MainActivity" />

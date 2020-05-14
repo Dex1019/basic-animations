@@ -73,9 +73,18 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_scale_animation"
         android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
         android:layout_height="wrap_content"
         android:background="@color/colorAccent"
         android:text="Scale Animation"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_bottom_sheet_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Bottom sheet  Animation"
         android:textAllCaps="false" />
 
 </LinearLayout>

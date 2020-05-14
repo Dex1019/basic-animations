@@ -38,6 +38,7 @@ class FadeAnimationActivity : AppCompatActivity() {
     private fun startFadeOutAnimation() {
         val animFadeOut = AnimationUtils.loadAnimation(this, R.anim.fade_out)
         animFadeOut.duration = 1000
+
         ivFadeAnim.startAnimation(animFadeOut)
         animFadeOut.setAnimationListener(object : Animation.AnimationListener {
             override fun onAnimationRepeat(animation: Animation?) {
